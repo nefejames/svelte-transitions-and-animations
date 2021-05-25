@@ -5,7 +5,7 @@
   import BitFumesTransition from "./4BitFumesTransition.svelte";
   import DCodeTransition from "./5DCodeTransition.svelte";
   import CustomTransition from "./6CustomTransition.svelte";
-
+  import AnimateDirective from "./7AnimateDirective.svelte";
   //unlike with Reeact,when importing components in Svelte,you have to add the .svelte file ext
 </script>
 
@@ -14,8 +14,9 @@
   <!-- <OfficialTweened /> -->
   <!-- <BitFumesSpring /> -->
   <!-- <BitFumesTransition /> -->
-  <DCodeTransition />
-  <CustomTransition />
+  <!-- <DCodeTransition /> -->
+  <!-- <CustomTransition /> -->
+  <AnimateDirective />
 </main>
 
 <style>
